@@ -1,6 +1,9 @@
 snippet req
-	{ 
-			"require": {
-					"${1:library}": "${2:version}"
-			}
-	}
+		"require": {
+				"${1:library}": "${2:version}"
+		}
+
+snippet auto
+		"autoload": {
+				"${1:autoloader}": {"${2:namespace}": "${3:path}"}	
+		}
